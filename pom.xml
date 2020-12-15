@@ -56,6 +56,14 @@
             <groupId>com.google.code.gson</groupId>
             <artifactId>gson</artifactId>
         </dependency>
+
+        <!--feign(声明式rest客户端（伪RPC）)-->
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-openfeign</artifactId>
+            <version>2.0.0.M3</version>
+		</dependency>
+
 	</dependencies>
 
 	<dependencyManagement>
